@@ -466,10 +466,13 @@ Para compilação e execução digite no terminal:
 ```
 ## Testes realizados
 Aproveitando de um feliz acidente com a geração automática de matriz, para o caso mínimo de uma matriz 5x5 o teste realizado contou com o fato da função rand() ser pseudo aleatória. Foi gerado uma matriz com 0 rodadas e renomeei para o arquivo input.mps para teste a versão que recebe do arquivo.
+
 ![Imagem 1](/imgs/matrizNaoTaoAleatoria.png)
+
 Sendo assim foi avaliado as condições de funcionamento minima requisitadas pela documentação da atividade. E para comparação de funcionamento, vi os resultados gerados tanto pela matriz gerada "aleatóriamente" com a de matriz passada via input, e em 10 rodadas as duas apresentaram o mesmo comportamento.
 
 ![Imagem 2](imgs/setimaRodadaMorte.png)
+
 Onde a partir de 8 rodada todas as células morrem. Que ao ser avaliado de acordo com as regras do programa seguiu perfeitamente o comportamento esperado.
 
 #### Possíveis erros.
